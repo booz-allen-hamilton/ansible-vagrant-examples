@@ -1,0 +1,10 @@
+---
+- hosts: default
+  become: yes
+  vars:
+    docker_users:
+      - "{{ ansible_ssh_user }}"
+    docker_opts: "--insecure-registry local-test-registry:5000"
+
+  roles:
+    - docker
