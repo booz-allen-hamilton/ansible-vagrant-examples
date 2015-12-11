@@ -1,3 +1,9 @@
 [submodule "docker/roles/docker"]
 	path = docker/roles/docker
 	url = https://github.com/booz-allen-hamilton/ansible-role-docker
+[submodule "spark-elasticsearch-toolkit/roles/elasticsearch-hadoop-library"]
+	path = spark-elasticsearch-toolkit/roles/elasticsearch-hadoop-library
+	url = https://github.com/booz-allen-hamilton/ansible-role-elasticsearch-hadoop-library
+[submodule "spark-elasticsearch-toolkit/roles/spark-library"]
+	path = spark-elasticsearch-toolkit/roles/spark-library
+	url = https://github.com/booz-allen-hamilton/ansible-role-spark-library
