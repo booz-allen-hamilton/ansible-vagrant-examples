@@ -10,3 +10,6 @@
 [submodule "deepdetect/roles/deepdetect"]
 	path = deepdetect/roles/deepdetect
 	url = https://github.com/booz-allen-hamilton/ansible-role-deepdetect
+[submodule "jenkins/roles/jenkins"]
+	path = jenkins/roles/jenkins
+	url = https://github.com/booz-allen-hamilton/ansible-role-jenkins
