@@ -7,3 +7,6 @@
 [submodule "spark-elasticsearch-toolkit/roles/spark-library"]
 	path = spark-elasticsearch-toolkit/roles/spark-library
 	url = https://github.com/booz-allen-hamilton/ansible-role-spark-library
+[submodule "deepdetect/roles/deepdetect"]
+	path = deepdetect/roles/deepdetect
+	url = https://github.com/booz-allen-hamilton/ansible-role-deepdetect
