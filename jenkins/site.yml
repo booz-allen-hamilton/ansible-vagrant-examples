@@ -1,0 +1,16 @@
+---
+- hosts: default
+  become: yes
+  vars:
+    jenkins_plugins:
+      - git
+      - zentimestamp
+
+  roles:
+    - jenkins
+
+  tasks:
+    - name: Install build dependencies
+      yum: name={{item}} state=present
+      with_items:
+        - git
