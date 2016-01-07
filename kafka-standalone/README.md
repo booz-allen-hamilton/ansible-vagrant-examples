@@ -19,6 +19,6 @@ Write data to topic
 
     bin/kafka-console-producer.sh --broker localhost:9092 --topic test <<< "Test Message"
 
-Read data to topic
+Read data from topic
 
     bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic test --from-beginning
