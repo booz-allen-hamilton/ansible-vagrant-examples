@@ -13,3 +13,6 @@
 [submodule "jenkins/roles/jenkins"]
 	path = jenkins/roles/jenkins
 	url = https://github.com/booz-allen-hamilton/ansible-role-jenkins
+[submodule "kafka-standalone/roles/kafka-standalone"]
+	path = kafka-standalone/roles/kafka-standalone
+	url = https://github.com/booz-allen-hamilton/ansible-role-kafka-standalone
